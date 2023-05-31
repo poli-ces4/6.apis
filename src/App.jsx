@@ -1,7 +1,11 @@
-import React from "react";
+import { ArticlesProvider } from './context/ArticlesContext';
 
 const App = () => {
-  return <div>App</div>;
+	return (
+		<ArticlesProvider>
+			<div>Prueba</div>
+		</ArticlesProvider>
+	);
 };
 
 export default App;
